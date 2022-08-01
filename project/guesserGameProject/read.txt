@@ -1,1 +1,26 @@
+There are four class 
+1) Main class
+2)Guesser Class
+3)Umpire Class
+4)Player Class
 
+public class Guesser{
+private int guess_number;
+public int guessNumber();
+}
+
+public class Umpire{
+private int guesser_number;
+private int player1_number;
+private int player2_number;
+private int player3_number;
+
+public void getGuesserNumber();
+public void getPlayerNumber();
+public void compare();
+}
+
+public class Player{
+private int guess_number;
+public int guessNumber();
+}
